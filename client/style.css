@@ -32,7 +32,7 @@ body {
   flex-direction: column;
   gap: 10px;
 
-  -ms-overflow-style: none;
+  
   scrollbar-width: none;
 
   padding-bottom: 20px;
@@ -40,7 +40,7 @@ body {
 }
 
 /* hides scrollbar */
-#chat_container::-webkit-scrollbar {
+#chat_container:{
   display: none;
 }
 
@@ -96,12 +96,10 @@ body {
   overflow-x: scroll;
 
   white-space: pre-wrap; 
-
-  -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
-.message::-webkit-scrollbar {
+.message: {
   display: none;
 }
 
